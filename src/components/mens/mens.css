@@ -1,0 +1,46 @@
+.aligning {
+    margin-top: 5rem;
+}
+
+.hover img{
+    width: 15rem;
+    height: 15rem;
+    margin-top: 3rem;
+    background-color: transparent;
+    border: 5px solid #DCDCDC;
+    border-radius: 0.5rem;
+}
+
+.hover img:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+
+.title{
+    color:black;
+}
+
+
+@media screen and (max-width: 480px) {
+    .hover img{
+        width: 10rem;
+        height: 10rem;
+        margin-top: 2rem;
+        background-color: transparent;
+        border: 5px solid #DCDCDC;
+        border-radius: 0.5rem;
+    }
+    
+    .hover img:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 1s ease;
+    }
+    .title{
+        color:black;
+        font-size: 0.75rem;
+    }
+}
